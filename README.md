@@ -9,6 +9,7 @@ Para executar o projeto, siga os passos abaixo:
 1. Inicie o Minikube:
     ```bash
     $ minikube start
+    $ alias kubectl="minikube kubectl --"
     ```
 
 2. Configure o ambiente Docker para usar o Minikube:
